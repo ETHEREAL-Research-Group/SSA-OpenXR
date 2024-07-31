@@ -15,11 +15,7 @@ public class GameManager : NetworkBehaviour
   public void FinishSetupAnchor_ServerRpc(ulong sourceClientId)
   {
     Logger.AppendLog($"Setup Anchor is finished for client #{sourceClientId}");
-    if (sourceClientId == 2)
-    {
-      Logger.AppendLog($"Researcher is Connected. Finishing Setup...");
-      FinishSetup_ServerRpc();
-    }
+    // FinishSetup_ServerRpc();
   }
 
   private string UserID;

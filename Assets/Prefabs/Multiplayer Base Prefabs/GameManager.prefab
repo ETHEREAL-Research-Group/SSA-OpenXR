@@ -498,8 +498,6 @@ MonoBehaviour:
   ChildItems:
   - {fileID: 5572473107177700672}
   - {fileID: 991220435832092553}
-  GazeInteractor: {fileID: 0}
-  DwellManager: {fileID: 0}
 --- !u!1 &1107919001826588002
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,9 +578,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   authenticationMode: 0
-  spatialAnchorsAccountId: d1e55c02-ab50-4a4b-a18b-5f812f27a489
-  spatialAnchorsAccountKey: UoO47vy1QseAxF1Zj93lDyscCVSovxPyFkyWRXmY9kc=
-  spatialAnchorsAccountDomain: westus2.mixedreality.azure.com
+  spatialAnchorsAccountId: 
+  spatialAnchorsAccountKey: 
+  spatialAnchorsAccountDomain: 
   clientId: 
   tenantId: 
   logLevel: 5
@@ -598,7 +596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 3464063619
+  GlobalObjectIdHash: 3264488359
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -4038,7 +4036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1011165191
+  GlobalObjectIdHash: 3264488359
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
