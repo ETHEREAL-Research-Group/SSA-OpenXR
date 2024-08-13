@@ -3,7 +3,7 @@
 Welcome to Shared Spatial Anchors for OpenXR, a Unity template repository using Unity 2022, MRTK3, and Azure Spatial Anchros for building multiplayer mixed reality applications. This project focuses on simplifying object sharing in a multi-user environment.
 
 ## Getting Started
-1. Clone the repository to your local machine.
+1. Clone the repository to your local machine or download the [unity package](./ssa-openxr.unitypackage), import it into your project and install the dependencies.
 2. Change the build platform to UWP if you are targeting HoloLens or Android if you are targeting Meta Quest devices.
 3. Load the `GameManager` prefab, locate `ASAManager` as a child of `GameManager` and populate the credentials.
 
@@ -11,7 +11,7 @@ Welcome to Shared Spatial Anchors for OpenXR, a Unity template repository using 
 To share an object:
 
 1. Add the prefabs `NetworkManager`, `GameManager`, and `SharedContent` to your scene.
-2. Convert aby game object into a prefab.
+2. Convert any game object into a prefab.
 3. Attach the `SyncTransform` component to the prefab.
 4. Use the `SpawnSharedObject` method from the `GameManager` to spawn the shared object.
 

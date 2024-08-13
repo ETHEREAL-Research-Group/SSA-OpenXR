@@ -50,5 +50,5 @@
         "Temp/": true
     },
     "dotnet.preferCSharpExtension": true,
-    "dotnet.defaultSolution": "SSA-OpenXR.sln"
+    "dotnet.defaultSolution": "SSA-OpenXR-Package.sln"
 }
