@@ -1,5 +1,7 @@
 # SSA-OpenXR
 
+This is the corresponding repository for our paper: [https://10.1145/3641825.3687743](https://10.1145/3641825.3687743). Please cite the paper if you intend to use this code.
+
 Welcome to Shared Spatial Anchors for OpenXR, a Unity template repository using Unity 2022, MRTK3, and Azure Spatial Anchros for building multiplayer mixed reality applications. This project focuses on simplifying object sharing in a multi-user environment.
 
 ## Getting Started
